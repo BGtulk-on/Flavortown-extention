@@ -4,19 +4,16 @@ A comprehensive browser extension for `flavortown.hackclub.com` that enhances th
 
 ## 🚀 Features
 
-### 1. HTTP Header Injection
-Adds the `X-Flavortown-Ext-2590: true` header to all outgoing requests to Flavortown, identifying the extension to the server for analytics and project tracking.
-
-### 2. Performance Optimizations
+### 1. Performance Optimizations
 *   **Extreme Performance Mode**: (Settings Toggle) Blocks heavy analytics scripts (Plausible, Sentry, Zaraz) and hides large hero backgrounds/assets to maximize speed.
 *   **Shop Grid Optimization**: (Always Active) Uses CSS `content-visibility: auto` to defer rendering of off-screen shop items, making scrolling butter-smooth.
 *   **Devlog Feed Optimization**: (Settings Toggle) Applies lazy-rendering to posts on the explore page.
 
-### 3. Visual Enhancements
+### 2. Visual Enhancements
 *   **Snow Effect Toggle**: (Settings Toggle) Disables the recursive snow particle effects and removes festive decorations (Santa hats, etc.) to save CPU/GPU cycles.
 *   **Navigation Cleanup**: Renames the generic "Gallery" tab to "Projects" and provides a cleaner icon for better orientation.
 
-### 4. Bug Fixes
+### 3. Bug Fixes
 *   **Devlog Attachment Deduplication**: (Settings Toggle) Detects and removes duplicate images/videos in post carousels. It also cleans up the navigation dots and hide chevrons for single-item posts.
 
 ## 🛠 Installation
@@ -37,3 +34,4 @@ Adds the `X-Flavortown-Ext-2590: true` header to all outgoing requests to Flavor
 
 ## ⚙️ How to use
 Once installed, navigate to the **Settings** page on Flavortown. You will find several new checkboxes at the bottom of the settings form to toggle the extension's features.
+                                                                   
