@@ -13,20 +13,13 @@
             ]
         },
         "condition": {
-            "urlFilter": "*://flavortown.hackclub.com/*",
+            "requestDomains": [
+                "flavortown.hackclub.com"
+            ],
             "resourceTypes": [
                 "main_frame",
                 "sub_frame",
-                "stylesheet",
-                "script",
-                "image",
-                "font",
-                "object",
                 "xmlhttprequest",
-                "ping",
-                "csp_report",
-                "media",
-                "websocket",
                 "other"
             ]
         }
